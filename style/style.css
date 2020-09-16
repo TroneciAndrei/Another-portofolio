@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,400&display=swap");
+html {
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-container {
+  background: url(../image/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: auto;
+}
+
+header p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: white !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-size: 25px;
+}
+
+.nav {
+  position: relative;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.btn {
+  position: absolute;
+  right: 30px;
+  top: 28px;
+  font-size: 30px;
+  height: 50px;
+  width: 120px;
+}
+
+.btn-lg {
+  font-size: 100px;
+}
+
+.btn .btn-outline-danger {
+  border-radius: 150px !important;
+}
+
+.float-right a {
+  font-size: 20px;
+  border-radius: 150px;
+  color: white;
+}
+
+.wrapper {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.main-content {
+  color: white;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  margin-bottom: 150px;
+  font-weight: bold;
+}
+
+.main-content p {
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.btn-outline-danger {
+  border: 1px solid red;
+  border-radius: 150px;
+  font-size: 25px;
+}
+
+.button {
+  margin-right: 30px;
+}
+
+.buttons .btn-outline-danger {
+  border-radius: 150px !important;
+  font-size: 20px;
+  background-color: red;
+  padding-top: 0.3em;
+  padding-bottom: 0.6em;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-outline-secondary {
+  border: 1px solid red;
+  border-radius: 150px;
+  font-size: 25px;
+}
+
+.buttons .btn-outline-secondary {
+  border-radius: 150px !important;
+  font-size: 20px;
+  background-color: #2C2B2B;
+  padding-top: 0.3em;
+  padding-bottom: 0.6em;
+}
+
+#Group_2 {
+  position: absolute;
+  width: 1065.474px;
+  height: 930.204px;
+  left: -61.949px;
+  top: 1118.59px;
+  overflow: visible;
+}
+
+#Path_2 {
+  fill: rgba(0, 143, 148, 0.631);
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Path_2 {
+  overflow: visible;
+  position: absolute;
+  width: 1015.365px;
+  height: 849.453px;
+  -webkit-transform: translate(61.949px, -1118.59px) matrix(1, 0, 0, 1, -54.6142, 1190.5462) rotate(1deg);
+          transform: translate(61.949px, -1118.59px) matrix(1, 0, 0, 1, -54.6142, 1190.5462) rotate(1deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+#pixeltrue-web-design-1 {
+  position: absolute;
+  width: 1056.489px;
+  height: 800.084px;
+  left: 8.986px;
+  top: 0px;
+  overflow: visible;
+}
+
+#Group_3 {
+  position: absolute;
+  width: 969px;
+  height: 410px;
+  left: 937px;
+  top: 1325px;
+  overflow: visible;
+}
+
+#About_ {
+  left: 380px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 165px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: black;
+}
+
+#Hi__my_name_is_Troneci_Andrei_ {
+  left: 0px;
+  top: 132px;
+  position: absolute;
+  overflow: visible;
+  width: 924px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black;
+}
+
+#I_start_my_journey_when_I_was_ {
+  left: 0px;
+  top: 211px;
+  position: absolute;
+  overflow: visible;
+  width: 957px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black;
+}
+
+#My_super_powers_are_HTML5_CSS3 {
+  left: 0px;
+  top: 290px;
+  position: absolute;
+  overflow: visible;
+  width: 970px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black;
+}
+
+#Skills_ {
+  left: 895px;
+  top: 2182px;
+  position: absolute;
+  overflow: visible;
+  width: 132px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: black;
+}
+
+#Rectangle_7 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Rectangle_7 {
+  position: absolute;
+  overflow: visible;
+  width: 336px;
+  height: 701px;
+  left: 788px;
+  top: 2411px;
+}
+
+#Rectangle_8 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Rectangle_8 {
+  position: absolute;
+  overflow: visible;
+  width: 336px;
+  height: 701px;
+  left: 1286px;
+  top: 2411px;
+}
+
+#Rectangle_9 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Rectangle_9 {
+  position: absolute;
+  overflow: visible;
+  width: 336px;
+  height: 701px;
+  left: 299px;
+  top: 2411px;
+}
+
+#Responsive_Design {
+  left: 326px;
+  top: 2444px;
+  position: absolute;
+  overflow: visible;
+  width: 283px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+}
+
+#Great_Comunication {
+  left: 806px;
+  top: 2444px;
+  position: absolute;
+  overflow: visible;
+  width: 301px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+}
+
+#Clean_Code {
+  left: 1368px;
+  top: 2444px;
+  position: absolute;
+  overflow: visible;
+  width: 171px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+}
+
+#ID4002783 {
+  position: absolute;
+  width: 336px;
+  height: 300px;
+  left: 1286px;
+  top: 2489px;
+  overflow: visible;
+}
+
+#Lorem_Ipsum_is_simply_dummy__t {
+  left: 1304px;
+  top: 2798px;
+  position: absolute;
+  overflow: visible;
+  width: 319px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+
+#ID4457 {
+  position: absolute;
+  width: 346px;
+  height: 204px;
+  left: 783px;
+  top: 2537px;
+  overflow: visible;
+}
+
+#ID3054528 {
+  position: absolute;
+  width: 320px;
+  height: 296px;
+  left: 312px;
+  top: 2491px;
+  overflow: visible;
+}
+
+#Lorem_Ipsum_is_simply_dummy__t_bi {
+  left: 811px;
+  top: 2798px;
+  position: absolute;
+  overflow: visible;
+  width: 319px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+
+#Lorem_Ipsum_is_simply_dummy__t_bj {
+  left: 308px;
+  top: 2798px;
+  position: absolute;
+  overflow: visible;
+  width: 319px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
